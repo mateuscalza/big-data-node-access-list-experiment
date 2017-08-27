@@ -1,0 +1,19 @@
+{
+  "name": "big-data-access-list",
+  "version": "1.0.0",
+  "description": "Big data example with Node.",
+  "main": "index.js",
+  "author": "Mateus Calza <cto@prix.tech>",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server --port=\"3030\" --mount=\"/:.\"",
+    "process": "node index.js",
+    "generate": "node generate.js"
+  },
+  "dependencies": {
+    "async-parallel": "^1.2.3",
+    "fs-extra": "^4.0.1",
+    "iplocation": "^5.0.0",
+    "live-server": "^1.2.0"
+  }
+}
